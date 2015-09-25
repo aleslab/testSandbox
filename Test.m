@@ -1,7 +1,7 @@
 %  testSandbox
 % Use this repository for mucking around and testing git
 h = animatedline;
-axis([0,4*pi,-1,1])
+axis([0,4*pi,-2,1])
 
 x = linspace(0,4*pi,2000);
 y = sin(x);
