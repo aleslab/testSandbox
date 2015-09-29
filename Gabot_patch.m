@@ -24,7 +24,7 @@ phase = .25;
 trim=.005;
 
 X = 1:imsize;
-X0 = (x / imsize) - .5;
+X0 = (x /2 imsize) - .5;
 Undefined function or variable 'x'.
  
 Did you mean:
