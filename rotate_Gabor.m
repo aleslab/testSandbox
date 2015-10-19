@@ -25,7 +25,7 @@ if screenInfo.useKbQueue
     
 end
 
-
+function img = createGabor(radiusPix, sigmaPix, cyclesPerSigma, contrast, phase, orient)
 % Convert it to a texture 'tex':
 tex=Screen('MakeTexture', screenInfo.curWindow, noisePattern+targetPattern);
 
@@ -34,7 +34,7 @@ for iFrame = 1:nFrames
     thisTime =  GetSecs - conditionInfo.stimStartTime-conditionInfo.preStimDuration;
     %How long has it been since last draw?
     
-    function img = createGabor(radiusPix, sigmaPix, cyclesPerSigma, contrast, phase, orient)
+    
     
     sigmasPerImage = 2*radiusPix/sigmaPix;
     [x,y] = meshgrid(-radiusPix:radiusPix,-radiusPix:radiusPix);
