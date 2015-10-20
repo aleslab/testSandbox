@@ -14,4 +14,7 @@ elseif n == 4
 elseif n == 5
     fprint ('thursday')
     day_type = 1
-elseif 
+elseif n = 6
+    fprintf ('friday')
+    day_type = 1
+    
