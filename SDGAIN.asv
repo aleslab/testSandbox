@@ -1,0 +1,17 @@
+%script to calculate predicited orientation using inputed kalman gains
+
+
+O=randn(1, 10);
+E=randn(1, 10);
+K=0.6
+
+PE=O-E
+
+X=(O-E)+ K*PE
+
+
+
+plot (O,'b')
+HX,'g')
+
+
