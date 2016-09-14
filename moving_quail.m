@@ -29,7 +29,7 @@ Q_loc_meas = []
 figure (2);clf
 figure (1); clf
 
-for t = 0 :dt: duration
+for t = 1 :dt: duration;
     
     QuailAccel_noise = QuailAccel_noise_mag * [(dt^2/2) * randn; dt*radn];
     Q=A * Q+ B * u + QuailAccel_noise;
